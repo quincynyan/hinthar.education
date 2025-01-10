@@ -1,191 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hinthar International School</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <div class="left-side">
-        <img
-          class="left-side-logo"
-          src="images/Hinthar_logo.png"
-          alt="main-logo"
-        />
-      </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hinthar Education</title>
+    <link rel="stylesheet" href="style.css">
 
-      <div class="right-side">
-        <input type="text" name="search" placeholder="search..." />
-        <img class="side-logo" src="images/logo.png" alt="side-logo" />
-      </div>
-    </header>
+</head>
+<body>
+    <!-- Navbar -->
     <nav>
-      <ul class="side_bar">
-        <li>
-          <a class="close_btn" href="#"
-            ><svg
-              onclick="closesidebar()"
-              xmlns="http://www.w3.org/2000/svg"
-              height="26px"
-              viewBox="0 -960 960 960"
-              width="26px"
-              fill="#000000"
-            >
-              <path
-                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
-              />
-            </svg>
-          </a>
-        </li>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#about">About Us</a></li>
-        <li><a href="#academics">Academics</a></li>
-        <li><a href="#events">Events</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <p>----------------------------------</p>
-        <div class="search_bar_side">
-          <input type="text" name="search" placeholder="search..." />
+        <div class="logo">
+            <img src="images/hinthar_logo.png" alt="Hinthar Logo" width="100">
+            <span class="school-name">Hinthar International School</span>
         </div>
-        <p>----------------------------------</p>
-        <div class="media_sidebar">
-          <a href="#"
-            ><img class="icons fb" src="images/facebook_icon.png" alt="icons"
-          /></a>
-          <a href="#"
-            ><img class="icons yt" src="images/youtube_icon.png" alt="icons" />
-          </a>
-          <a href="#"
-            ><img class="icons x" src="images/twitter_icon.png" alt="icons" />
-          </a>
-          <a href="#"
-            ><img class="icons insta" src="images/insta_icon.png" alt="icons" />
-          </a>
-          <a href="#"
-            ><img
-              class="icons linkin"
-              src="images/linkedin_icon.png"
-              alt="icons"
-          /></a>
-        </div>
-
-        <div>
-          <img class="sidebar-logo" src="images/logo.png" alt="logo" />
-        </div>
-        <p>----------------------------------</p>
-        <div>
-          <a class="fq" href="#"><h1>FAQ</h1></a>
-        </div>
-      </ul>
-      <ul>
-        <li class="hide"><a href="index.html">Home</a></li>
-        <li class="hide"><a href="#about">About Us</a></li>
-        <li class="hide"><a href="#academics">Academics</a></li>
-        <li class="hide"><a href="#events">Events</a></li>
-        <li class="hide"><a href="#contact">Contact</a></li>
-        <li class="menu" onclick="opensidebar()">
-          <a href="#"
-            ><svg
-              xmlns="http://www.w3.org/2000/svg"
-              height="30px"
-              viewBox="0 -960 960 960"
-              width="30px"
-              fill="#000000"
-            >
-              <path
-                d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
-              />
-            </svg>
-          </a>
-        </li>
-      </ul>
-    </nav>
-    <section id="about">
-      <div class="slideshow-container">
-        <div class="slides">
-          <img src="images/image1.png" alt="Image 1" />
-        </div>
-        <div class="slides">
-          <img src="images/image2.png" alt="Image 2" />
-        </div>
-        <div class="slides">
-          <img src="images/image3.png" alt="Image 3" />
-        </div>
-        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
-        <a class="next" onclick="changeSlide(1)">&#10095;</a>
-      </div>
-    </section>
-    <section id="about">
-      <h2>Academics</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto
-        modi ducimus similique pariatur et sit, excepturi quas fuga sed
-        doloremque omnis aperiam. Deleniti consectetur sequi nisi et rerum
-        voluptates fugit!
-      </p>
-    </section>
-    <section id="events">
-      <h2>Events</h2>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis
-        aliquid atque voluptas rerum laborum rem minus, quidem doloremque
-        maiores ipsum doloribus iste dolorem sapiente labore et inventore
-        deleniti temporibus voluptatem!
-      </p>
-    </section>
-    <section id="contact">
-      <div class="contact_page">
-        <h2>CONTACT US</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-          provident consequatur excepturi aut culpa praesentium pariatur
-          deserunt, non repudiandae ab, odio consequuntur quisquam accusamus in.
-          Soluta debitis numquam hic eligendi!
-        </p>
-        <a class="contact_button" href="#">GO TO CONTACT</a>
-      </div>
-      <div class="access">
-        <div class="head">
-          <h2>Campus</h2>
-          <h2>Locations</h2>
-        </div>
-        <div class="body">
-          <a href="#">Myakanthar Campus</a>
-          <a href="#">Ywarma Campus</a>
-        </div>
-      </div>
-    </section>
-
-    <footer>
-      <div class="media">
-        <a href="#"
-          ><img class="icons fb" src="images/facebook_icon.png" alt="icons"
-        /></a>
-        <a href="#"
-          ><img class="icons yt" src="images/youtube_icon.png" alt="icons" />
-        </a>
-        <a href="#"
-          ><img class="icons x" src="images/twitter_icon.png" alt="icons" />
-        </a>
-        <a href="#"
-          ><img class="icons insta" src="images/insta_icon.png" alt="icons" />
-        </a>
-        <a href="#"
-          ><img class="icons linkin" src="images/linkedin_icon.png" alt="icons"
-        /></a>
-      </div>
-      <div class="footer_nav">
         <ul>
-          <li><a href="">About</a></li>
-          <li><a href="">Acadamic</a></li>
-          <li><a href="">Events</a></li>
-          <li><a href="">Contact Us</a></li>
-          <li><a href="">Privacy Policy</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="textbooks.html">Textbooks & Notebooks</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
-      </div>
-      <p>&copy; 2025 Hinthar International School. All rights reserved.</p>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Welcome to Hinthar Education</h1>
+            <p>Your gateway to a brighter future.</p>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-us" id="about">
+        <h2>About Us</h2>
+        <p>At Hinthar Education, we provide quality education to help students achieve their academic and professional goals.</p>
+    </section>
+
+    <!-- Social Media Links -->
+    <section class="social-media">
+        <a href="https://www.facebook.com/share/1EwyNJn9Q8/?mibextid=wwXIfr" target="_blank" class="social-icon">
+            <img src="images/facebook_icon.png" alt="Facebook">
+        </a>
+        <a href="https://youtube.com/@hintharinternationalschool3401?si=hIsUJuPKH6Oq_zPD" target="_blank" class="social-icon">
+            <img src="images/youtube_icon.png" alt="YouTube">
+        </a>
+        <a href="https://www.linkedin.com/in/kmhtut?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_appm" target="_blank" class="social-icon">
+            <img src="images/linkedin_icon.png" alt="LinkedIn">
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Hinthar Education. All rights reserved.</p>
     </footer>
-    <script src="app.js"></script>
-  </body>
+</body>
 </html>
