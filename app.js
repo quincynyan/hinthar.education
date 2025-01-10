@@ -1,30 +1,11 @@
-let slideIndex = 1;
-showSlides(slideIndex);
-
-function changeSlide(n) {
-  showSlides((slideIndex += n));
-}
-
-function showSlides(n) {
-  let slides = document.getElementsByClassName("slides");
-  if (n > slides.length) {
-    slideIndex = 1;
-  }
-  if (n < 1) {
-    slideIndex = slides.length;
-  }
-  for (let i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slides[slideIndex - 1].style.display = "block";
-}
-
-function opensidebar() {
-  const sidebar = document.querySelector(".side_bar");
-  sidebar.style.display = "flex";
-}
-
-function closesidebar() {
-  const sidebar = document.querySelector(".side_bar");
-  sidebar.style.display = "none";
-}
+// Example of adding a smooth scroll effect to all anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+      });
+  });
+});
