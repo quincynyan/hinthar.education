@@ -3,56 +3,427 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hinthar Education</title>
-    <link rel="icon" href="images/Hinthar_logo.png" type="image/png">
-    <link rel="stylesheet" href="style.css">
+    <title>Hinthar</title>
+    <link rel="icon" type="image/x-icon" href="Hinthar_logo.png">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!--Search Function-->
+<!-- Script -->
 </head>
 <body>
-    <!-- Navbar -->
-    <nav>
-        <div class="logo">
-            <img src="images/Hinthar_logo.png" alt="Hinthar Logo" width="100">
-            <span class="school-name">Hinthar International School</span>
-        </div>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="courses.html">Courses</a></li>
-            <li><a href="textbooks.html">Textbooks & Notebooks</a></li>
-            <li><a href="contact.html">Contact</a></li>
+<!--Header-->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #003366;">
+    <div class="container-fluid">
+    <!-- Logo and Title together -->
+    <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="Hinthar_logo.png" alt="Hinthar Logo" width="50" class="me-2">Hinthar Education</a>
+
+    <!-- Toggler for mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+            
+
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Programs</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#program">Primary</a></li>
+                    <li><a class="dropdown-item" href="#program">Secondary</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#program">O Level</a></li>
+                    <li><a class="dropdown-item" href="#program">A Level</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#program">BCS</a></li>
+                </ul>
+            </li>
+
+            <li class="nav-item"><a class="nav-link" href="#specializations">Specialisations</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+>
         </ul>
-    </nav>
+        
+        <div class="d-flex align-items-center">
+        <a href="tel:+959894332200" class="btn btn-outline-light">
+            <i class="bi bi-telephone me-2"></i> +95 9 894 332200
+        </a>
+</div>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="hero-content">
-            <h1>Welcome to Hinthar Education</h1>
-            <p>Your gateway to a brighter future.</p>
+        
+        
+        
+    </div>
+</div>
+</nav>
+<!--End of Navigation-->
+
+<!--Image Slider-->
+<img src="graduation.jpg" class="img-fluid mb-4" alt="Hinthar Graduation">
+
+<!--Programs-->
+<div class="container my-5">
+    <h2 class="mb-4 text-center">Programs We Offer</h2>
+    <div class="row g-4">
+
+    <!-- Primary Program -->
+    <div class="col-md-6 col-lg-4"id="program">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body" style="background-color: #003366; color:white;">
+                <h5 class="card-title">Primary Program</h5>
+                    <p class="card-text">Building a strong foundation in core subjects to develop essential skills and confidence.</p>
+            </div>
         </div>
-    </section>
+    </div>
 
-    <!-- About Us Section -->
-    <section class="about-us" id="about">
-        <h2>About Us</h2>
-        <p>At Hinthar Education, we provide quality education to help students achieve their academic and professional goals.</p>
-    </section>
+    <!-- Secondary Program -->
+    <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body" style="background-color: #003366; color:white;">
+            <h5 class="card-title">Secondary Program</h5>
+            <p class="card-text">
+            Preparing students with in-depth knowledge and critical thinking for advanced study.
+            </p>
+            </div>
+        </div>
+    </div>
 
-    <!-- Social Media Links -->
-    <section class="social-media">
-        <a href="https://www.facebook.com/share/1EwyNJn9Q8/?mibextid=wwXIfr" target="_blank" class="social-icon">
-            <img src="images/facebook_icon.png" alt="Facebook">
-        </a>
-        <a href="https://youtube.com/@hintharinternationalschool3401?si=hIsUJuPKH6Oq_zPD" target="_blank" class="social-icon">
-            <img src="images/youtube_icon.png" alt="YouTube">
-        </a>
-        <a href="https://www.linkedin.com/in/kmhtut?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_appm" target="_blank" class="social-icon">
-            <img src="images/linkedin_icon.png" alt="LinkedIn">
-        </a>
-    </section>
+    <!-- O Level Program -->
+    <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body" style="background-color: #003366; color:white;">
+            <h5 class="card-title">O Level Program</h5>
+            <p class="card-text">
+            Cambridge and Edexcel O Level courses designed to meet international standards and ensure exam success.
+            </p>
+            </div>
+        </div>
+    </div>
 
-    <!-- Footer -->
-    <footer>
+    <!-- A Level Program -->
+    <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body" style="background-color: #003366; color:white;">
+                <h5 class="card-title">A Level Program</h5>
+                    <p class="card-text">
+                        Advanced Level preparation providing students with the skills and qualifications needed for university admission.
+                    </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- BCS Program -->
+    <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body" style="background-color: #003366; color:white;">
+                <h5 class="card-title">BCS Program</h5>
+                    <p class="card-text">
+            Professional computing and IT courses for students pursuing careers in technology and related fields.
+                    </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Online Program -->
+    <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body" style="background-color: #003366; color:white;">
+                <h5 class="card-title">Online Program</h5>
+                <p class="card-text">
+                Hinthar Education offers a flexible and comprehensive Online Program for students in Secondary as well as those preparing for O Level and A Level exams.
+            </p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!--Specializations-->
+<div class="container" id="specializations">
+<h2 class="mb-4 text-center">Our Specialisations</h2>
+<div class="row">
+    <div class="col-md-3">
+    <div class="card mb-4">
+        <img src="medical.png" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Medical</h5>
+            <p class="card-text">Prepare for careers in health and medical sciences with courses emphasizing practical skills and professional ethics.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-3">
+    <div class="card mb-4">
+        <img src="engineering.avif" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Engineering</h5>
+        <p class="card-text">Develop technical expertise and problem-solving abilities through hands-on learning in various engineering fields.</p>
+        <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+    </div>
+    </div>
+    <div class="col-md-3">
+    <div class="card mb-4">
+        <img src="it.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Information Technology</h5>
+        <p class="card-text"> Learn software development, networking, cybersecurity, cloud computing and data analysis to excel in the digital world.</p>
+        <a href="#" class="btn btn-primary">Read More</a>
+    </div>
+    </div>
+    </div>
+    <div class="col-md-3">
+    <div class="card mb-4">
+        <img src="business.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Business</h5>
+        <p class="card-text">Build leadership and strategic skills for success in management, finance, marketing, accounting and entrepreneurship.</p>
+        <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<!--About-->
+<div class="container my-5" id="about">
+    <h2 class="mb-4 text-center">About Hinthar Education</h2>
+    <div class="row align-items-center">
+    <!-- Image Column -->
+    <div class="col-md-5 mb-4 mb-md-0">
+        <img src="DrKMH.jpg" alt="Hinthar Education" class="img-fluid rounded shadow">
+    </div>
+    
+    <!-- Text Column -->
+    <div class="col-md-7" style="text-align: justify;">
+        <h2 class="mb-3"></h2>
+        <p>
+        Hinthar Education is dedicated to empowering students with high-quality learning experiences that inspire confidence and success.
+        </p>
+        <p>
+        Located in the heart of Yangon, Myanmar, our institution offers a wide range of educational programs designed to meet the diverse needs of 
+learners at every stage. From Primary and Secondary education to internationally recognized qualifications such as O Level, A Level, and BCS 
+preparation, we provide comprehensive courses delivered by experienced educators committed to excellence.
+        </p>
+        <p>
+        We believe learning should be engaging, flexible, and accessible. That’s why we offer both on-campus and online classes, enabling students to 
+study in the way that suits them best.
+        </p>
+        <p>
+        Join us and discover how Hinthar Education can help you reach your educational goals with confidence and skill.
+        </p>
+    </div>
+    </div>
+</div>
+
+
+<!--FAQ-->
+<div class="container my-5" id="faq">
+    <h2 class="mb-4 text-center">Frequently Asked Questions</h3>
+        <div class="accordion" id="faqAccordion">
+
+    <!-- FAQ 1 -->
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeadingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseOne" aria-expanded="true" aria-controls="faqCollapseOne">  What courses do you offer?
+        </button>
+        </h2>
+        <div id="faqCollapseOne" class="accordion-collapse collapse show" aria-labelledby="faqHeadingOne" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+            We offer a variety of courses including Primary, Secondary, O Level, A Level, and BCS preparation.
+        </div>
+    </div>
+    </div>
+
+    <!-- FAQ 2 -->
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeadingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseTwo" aria-expanded="false" aria-controls="faqCollapseTwo">
+        How can I enroll in a course?
+        </button>
+        </h2>
+        <div id="faqCollapseTwo" class="accordion-collapse collapse" aria-labelledby="faqHeadingTwo" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+            You can enroll by visiting our office, contacting us via phone or email, or completing the online registration form on our website.
+        </div>
+        </div>
+    </div>
+
+    <!-- FAQ 3 -->
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="faqHeadingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseThree" aria-expanded="false" aria-controls="faqCollapseThree">
+        What payment methods do you accept?
+        </button>
+        </h2>
+        <div id="faqCollapseThree" class="accordion-collapse collapse" aria-labelledby="faqHeadingThree" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+                We accept bank transfers, cash payments at our office, and mobile payments through popular platforms.
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ 4 -->
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeadingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseFour" aria-expanded="false" aria-controls="faqCollapseFour">
+            Do you provide textbooks and materials?
+        </button>
+        </h2>
+        <div id="faqCollapseFour" class="accordion-collapse collapse" aria-labelledby="faqHeadingFour" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+                Yes, we provide recommended textbooks and reference materials for all courses.
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ 5 -->
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeadingFive">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseFive" aria-expanded="false" aria-controls="faqCollapseFive">
+            Do you offer online and on-campus classes?
+        </button>
+        </h2>
+        <div id="faqCollapseFive" class="accordion-collapse collapse" aria-labelledby="faqHeadingFive" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+                Yes, we offer both online and on-campus classes to provide flexible learning options for our students. You can choose the mode that best fits your needs.
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!--Gallery-->
+<div class="container my-5">
+    <h2 class="mb-4 text-center">Gallery</h2>
+    <div class="row g-3">
+
+    <div class="col-sm-6 col-md-4 col-lg-3">
+    <img src="g9.jpg" class="img-fluid rounded shadow-sm" alt="Gallery Image 1">
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3">
+    <img src="g5.jpg" class="img-fluid rounded shadow-sm" alt="Gallery Image 2">
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3">
+    <img src="g7.jpg" class="img-fluid rounded shadow-sm" alt="Gallery Image 3">
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3">
+    <img src="g2.jpg" class="img-fluid rounded shadow-sm" alt="Gallery Image 4">
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3">
+    <img src="g3.jpg" class="img-fluid rounded shadow-sm" alt="Gallery Image 5">
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3">
+    <img src="g4.jpg" class="img-fluid rounded shadow-sm" alt="Gallery Image 6">
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3">
+    <img src="g9.jpg" class="img-fluid rounded shadow-sm" alt="Gallery Image 7">
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3">
+    <img src="g8.jpg" class="img-fluid rounded shadow-sm" alt="Gallery Image 8">
+    </div>
+    </div>
+</div>
+
+
+<!--Footer-->
+<div class="container-fluid mt-6" style="background-color: #003366; color: white;" id="contact">
+    <div class="container my-3">
+    <br>
+    <h2 class="mb-4 text-center">Contact Information</h3>
+    <footer class="py-5" >
+    <div class="row">
+        <div class="col-4 col-md-2 mb-3">
+        <!--<h5>Quick</h5>-->
+        <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="#program" class="nav-link p-0 text-muted">Programs</a></li>
+            <li class="nav-item mb-2"><a href="#specializations" class="nav-link p-0 text-muted">Specialisations</a></li>
+            <li class="nav-item mb-2"><a href="#about" class="nav-link p-0 text-muted">About</a></li>
+            <li class="nav-item mb-2"><a href="#faq" class="nav-link p-0 text-muted">FAQs</a></li>
+        </ul>
+        </div>
+
+        <div class="col-4 col-md-2 mb-3">
+        <!--<h5>Section</h5>-->
+        <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#program" class="nav-link p-0 text-muted">Primary</a></li>
+            <li class="nav-item mb-2"><a href="#program" class="nav-link p-0 text-muted">Secondary</a></li>
+            <li class="nav-item mb-2"><a href="#program" class="nav-link p-0 text-muted">O Level</a></li>
+            <li class="nav-item mb-2"><a href="#program" class="nav-link p-0 text-muted">A Level</a></li>
+            <li class="nav-item mb-2"><a href="#program" class="nav-link p-0 text-muted">BCS</a></li>
+        </ul>
+        </div>
+
+        <div class="col-4 col-md-2 mb-3">
+        <!--<h5>Section</h5>-->
+        <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="https://www.google.com/maps/place/Hinthar+Education/data=!4m2!3m1!1s0x0:0xf869e54f28e5e26f?sa=X&ved=1t:2428&ictx=111" class="nav-link p-0 text-muted">Address</a></li>
+            <li class="nav-item mb-2"><a href="mailto:hinthar.school@gmail.com" class="nav-link p-0 text-muted">Email</a></li>
+            <li class="nav-item mb-2"><a href="tel:+95 9 894 332200" class="nav-link p-0 text-muted">Phone</a></li>
+            <li class="nav-item mb-2"><a href="https://www.facebook.com/hinthar.education" class="nav-link p-0 text-muted">Facebook</a></li>
+            <li class="nav-item mb-2"><a href="https://www.youtube.com/@preighinthar9990" class="nav-link p-0 text-muted">Youtube</a></li>
+        </ul>
+        </div>
+
+        <div class="col-md-5 offset-md-1 mb-2">
+        <form>
+            <h3></h3>
+            <ul class="list-unstyled">
+                <li class="mb-3 d-flex align-items-center">
+                <i class="bi bi-geo-alt me-2" style="font-size: 1.3rem;"></i>
+                <span>No. 23B, Ywar Ma Kyaung Lane, Hlaing Township, Yangon, Myanmar, 11051</span>
+                </li>
+                <li class="mb-3 d-flex align-items-center">
+                <i class="bi bi-envelope me-2" style="font-size: 1.3rem;"></i>
+                <a href="mailto:hinthar.school@gmail.com" class="link-white text-decoration-none" style="color:white;">hinthar.school@gmail.com</a>
+                </li>
+                <li class="mb-3 d-flex align-items-center">
+                <i class="bi bi-telephone me-2" style="font-size: 1.3rem;"></i>
+                <a href="tel:+95 9 894 332200" class="link-white text-decoration-none"  style="color:white;">+95 9 894 332200</a>
+                </li>
+            </ul>
+
+    </form>
+    </div>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
         <p>&copy; 2025 Hinthar Education. All rights reserved.</p>
-    </footer>
+        <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-white" href="https://www.google.com/maps/place/Hinthar+Education/data=!4m2!3m1!1s0x0:0xf869e54f28e5e26f?sa=X&ved=1t:2428&ictx=111"><i class="bi bi-geo-alt" style="font-size: 1.5rem;color:white;"></i></a></li>
+            <li class="ms-3"><a class="link-white" href="mailto:hinthar.school@gmail.com"><i class="bi bi-envelope" style="font-size: 1.5rem;color:white;"></i></a></li>
+            <li class="ms-3"><a class="link-white" href="tel:+95 9 894 332200"><i class="bi bi-telephone" style="font-size: 1.5rem;color:white;"></i></a></li>
+            <li class="ms-3"><a class="link-white" href="https://www.facebook.com/hinthar.education"><i class="bi bi-facebook" style="font-size: 1.5rem;color:white;"></i></a></li>
+            <li class="ms-3"><a class="link-white" href="https://www.youtube.com/@preighinthar9990"><i class="bi bi-youtube" style="font-size: 1.5rem;color:white;"></i></a></li>
+        </ul>
+    </div>
+</footer>
+</div>
+</div>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+<script src="/docs/5.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+
 </body>
 </html>
