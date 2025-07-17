@@ -1,0 +1,137 @@
+@media screen and (max-width: 780px) {
+  header {
+    padding: 0 10px;
+  }
+
+  .head-left img {
+    width: 40px;
+    height: 40px;
+  }
+  .head-left h1 {
+    display: none;
+  }
+  .head-right a {
+    margin-left: 10px;
+    font-size: 10px;
+    padding: 0 5px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .main-info {
+    left: 5%;
+  }
+  .main-info h1 {
+    font-size: 60px;
+  }
+  .main-info p {
+    font-size: 20px;
+    font-weight: normal;
+    max-width: 300px;
+  }
+  .purpose-text {
+    text-align: center;
+    font-size: 40px;
+    bottom: 10%;
+  }
+  .dropdown-menu {
+    left: 25%;
+    top: 50px;
+  }
+
+  .specialisation-section h1 {
+    font-size: 30px;
+    margin: 10px;
+    padding: 5px;
+    margin-bottom: 0;
+  }
+  .info-cards {
+    width: auto;
+  }
+
+  .card {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .card h2 {
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
+  }
+  .card p {
+    height: auto;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    text-align: left;
+  }
+  .faq-section {
+    width: 75%;
+  }
+  .column-list {
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .bottom-footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bottom-footer p {
+    font-size: 14px;
+  }
+  .column {
+    font-size: 14px;
+  }
+  #column3 {
+    display: none;
+  }
+  .column-list li {
+    margin-bottom: 10px;
+  }
+
+  .icon-list {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .purpose-text {
+    text-align: center;
+  }
+  .about-section {
+    margin-top: 50px;
+  }
+  .head-about p {
+    margin-top: 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .head-about h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .detail {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .detail img {
+    width: 100%;
+    max-width: 300px;
+  }
+  .about-info {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .about-info p {
+    font-size: 14px;
+  }
+}
